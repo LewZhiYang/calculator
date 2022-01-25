@@ -18,13 +18,10 @@ for (let i=0; i<16; i++) {
 
 function evaluate() {
     try {
-        console.log('gets here')
-        document.getElementById('result').textContent = eval(document.getElementById('operationDisplay').textContent)
+        document.getElementById('result').textContent = eval(document.getElementById('operationDisplay').textContent).toFixed(1).replace(/\.0$/, "");
         
-        console.log('gets here2')
     } catch (error) {
-        
-        console.log('gets here3')
+        alert(error)
     }
 }
 
