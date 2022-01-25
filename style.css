@@ -1,0 +1,34 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 30px;
+}
+
+ol {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: content;
+}
+
+calculator {
+    border: 10px solid black;
+    display: flex;
+    flex-flow: column;
+    border-radius: 20px;
+}
+
+li {
+    border: 2px solid black;
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
